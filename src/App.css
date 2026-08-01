@@ -130,3 +130,14 @@ body {
 .signup-text a:hover {
   text-decoration: underline;
 }
+
+@media (max-width: 768px) {
+  .login-card {
+    width: 90%;
+    padding: 20px;
+  }
+
+  .nav-title {
+    font-size: 2rem;
+  }
+}
