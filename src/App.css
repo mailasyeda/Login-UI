@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f9f4ff, #eef4ff);
+}
+
+/* ---------- Header ---------- */
+
+.navbar {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.nav-title {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #222;
+}
+
+.nav-subtitle {
+  margin-top: 10px;
+  color: #777;
+  font-size: 1rem;
+}
+
+/* ---------- Login Card ---------- */
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.login-card {
+  width: 420px;
+  background: white;
+  border-radius: 25px;
+  padding: 40px;
+  box-shadow: 0 20px 45px rgba(0,0,0,0.08);
+}
+
+/* ---------- Inputs ---------- */
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 22px;
+}
+
+.input-group label {
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: #444;
+}
+
+.input-group input {
+  padding: 16px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  font-size: 16px;
+  transition: .3s;
+}
+
+.input-group input:focus {
+  outline: none;
+  border-color: #6c63ff;
+  box-shadow: 0 0 10px rgba(108,99,255,.25);
+}
+
+
+
+.options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+  font-size: 14px;
+}
+
+.options a {
+  color: #6c63ff;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.options a:hover {
+  text-decoration: underline;
+}
+
+/* ---------- Button ---------- */
+
+.login-btn {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  border-radius: 14px;
+  background: linear-gradient(135deg,#6c63ff,#8b5cf6);
+  color: white;
+  font-size: 17px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.login-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 25px rgba(108,99,255,.35);
+}
+
+
+
+.signup-text {
+  text-align: center;
+  margin-top: 25px;
+  color: #666;
+}
+
+.signup-text a {
+  color: #6c63ff;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.signup-text a:hover {
+  text-decoration: underline;
+}
